@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- Head section containing meta information and styles -->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>404</title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- Media queries for responsive design -->
+    <style>
+        @media screen and (max-width: 768px) {
+            .navigation {
+                flex-direction: column;
+                align-items: center;
+                padding: 1rem;
+            }
+
+            .navigation ul {
+                flex-direction: column;
+                text-align: center;
+                margin: 1rem 0;
+            }
+
+            .navigation li {
+                margin: 0.5rem 0;
+            }
+
+            .shopping-cart {
+                margin-top: 1rem;
+            }
+
+            .footer-section {
+                flex: 1 1 100%;
+                text-align: center;
+                margin: 1rem 0;
+            }
+
+            .social-media {
+                justify-content: center;
+            }
+        }
+
+        @media screen and (max-width: 480px) {
+            .thankyou-info h1 {
+                font-size: 1.5rem;
+            }
+
+            .welcome-button {
+                padding: 0.8rem 1.5rem;
+            }
+
+            .footer-info {
+                padding: 1rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Header section containing navigation -->
+    <header class="site-header">
+        <nav class="navigation">
+            <!-- Logo -->
+            <div class="se-logo">
+                <a href="home.html">
+                    <img src="images/square eyes logo resized.png" alt="Square Eyes logotype">
+                </a>
+            </div>
+
+            <!-- Navigation menu -->
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="films.html">Films</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+
+            <!-- Shopping cart icon -->
+            <div class="shopping-cart">
+                <a href="404.html">
+                    <img src="images/cart.png" alt="Shopping cart" class="cart-image">
+                </a>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Main content section -->
+    <main>
+        <section class="thankyou-section">
+            <div class="thankyou-info">
+                <h1>Function Under Development</h1>
+                <a href="home.html" class="welcome-button">Return Home</a>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer section -->
+    <footer class="footer-info">
+        <!-- Quick links section -->
+        <section class="footer-section">
+            <h2>Quick Links</h2>
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="films.html">Films</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </section>
+
+        <!-- Contact information section -->
+        <section class="footer-section">
+            <h2>Contact Us</h2>
+            <p>Email: <a href="mailto:info@scaryeyes.no">info@scaryeyes.no</a></p>
+            <p>Phone: <a href="tel:+471234567890">+47123 456 7890</a></p>
+        </section>
+
+        <!-- Social media links section -->
+        <section class="footer-section">
+            <h2>Follow Us</h2>
+            <div class="social-media">
+                <a href="404.html" aria-label="Follow us on Facebook">Facebook</a>
+                <a href="404.html" aria-label="Follow us on Twitter">Twitter</a>
+                <a href="404.html" aria-label="Follow us on Instagram">Instagram</a>
+            </div>
+        </section>
+
+        <!-- Copyright information -->
+        <div class="copyright">
+            © 2024 Scary Eyes. All rights reserved.
+        </div>
+    </footer>
+</body>
+</html>
